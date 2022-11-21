@@ -1,0 +1,123 @@
+:root {
+    --blue: #0d6efd;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #d63384;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #198754;
+    --teal: #20c997;
+    --cyan: #0dcaf0;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #0d6efd;
+    --secondary: #232323;
+    --success: #198754;
+    --info: #0dcaf0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+        "Courier New", monospace;
+    --gradient: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.15),
+        rgba(255, 255, 255, 0)
+    );
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-sans-serif);
+}
+.mx-wd{
+    max-width: 1100px;
+}
+.auto{
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+ .input input{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    margin: 5px 0;
+    display: block;
+    cursor: pointer;
+}
+form{
+    padding: 14px 20px;
+}
+form > div{
+    margin: 20px 0;
+}
+form > .inline{
+    display: flex;
+}
+.file > input{
+    border: none;
+    display: block;
+    font-size: 17px;
+    margin: 5px 0;
+}
+.inline > div{
+    width: 50%;
+}
+.bg{
+    background: var(--light);
+    border-radius: 8px;
+    width: 450px;
+    box-shadow: 0 0 9px var(--dark);
+}
+.bg header{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+form > .inline > div > input{
+    display: block;
+}
+
+form .link{
+    text-align: center;
+    font-size: 17px;
+}
+form .link a{
+    text-decoration: none;
+    color:var(--dark);
+}
+form .link a:hover{
+    text-decoration: underline;
+
+}
+.button > input{
+    background-color:var(--dark) ;
+    color: var(--white);
+    border: none;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    fill: #333;
+
+}
