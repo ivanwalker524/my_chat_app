@@ -21,7 +21,7 @@ if(isset($_POST['create'])){
         if($sql){
             echo "Connected Successfully";
         }else{
-            echo "Here is an error".mysqli_error($conn);
+            echo "Here is an error" . mysqli_error($conn);
         }
     }
 }
