@@ -14,31 +14,31 @@
         <div class="center">
             <div class="bg">
                 <header>WhatsApp Chat App</header>
-                <form action="">
+                <form action="insert.php" method="post" enctype="multipart/form-data">
                     <div class="inline">
                         <div class="input">
                             <label for="">First Name</label>
-                            <input type="text">
+                            <input type="text" name="fname">
                         </div>
                         <div class="input" style="margin-left:20px;">
                             <label for="">Last Name</label>
-                            <input type="text">
+                            <input type="text" name="lname">
                         </div>
                     </div>
                     <div class="input">
                         <label for="">Email</label>
-                        <input type="text">
+                        <input type="text" name="email">
                     </div>
-                    <div class="file">
+                    <!-- <div class="file">
                         <label for="">Select image</label>
-                        <input type="file">
-                    </div>
+                        <input type="file" name="file">
+                    </div> -->
                     <div class="input">
                         <label for="">Password</label>
-                        <input type="password">
+                        <input type="password" name="password">
                     </div>
                     <div class="input button" style="display:flex; align-items: center; justify-content: center;">
-                        <input type="submit" value="Continue">
+                        <input type="submit" name="create" value="Continue">
                     </div>
                     <div class="link">already signed in? <a href="login.php">Login</a></div>
                 </form>
