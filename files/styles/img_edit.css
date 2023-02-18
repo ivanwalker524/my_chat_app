@@ -1,0 +1,67 @@
+.container {
+  width: 400px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 10px;
+  background: #828282;
+  min-height: 300px;
+  position: absolute;
+  top: 40px;
+}
+.container > div > .arrow {
+  display: flex;
+  align-items: center;
+}
+.container div .arrow p:last-child {
+  margin-right: 100px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 100x;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  aspect-ratio: 2/2;
+  overflow: hidden;
+  position: relative;
+}
+.img img {
+  position: absolute;
+  min-width: 100%;
+  max-width: 130%;
+  min-height: 100%;
+}
+.img .select {
+  position: relative;
+}
+.img .select input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+.container div .icons {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+.container div .name p {
+  color: #000;
+}
+.container div .name div {
+  display: flex;
+  justify-content: space-between;
+}
+.container div a span input {
+  text-decoration: none;
+  color: #fff;
+
+  font-size: 14px;
+}
